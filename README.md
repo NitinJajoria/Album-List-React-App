@@ -3,7 +3,7 @@ Album List React.js Webapp using Mockapi, Tailwindcss, Axios, React Router and V
 
 ## To show CRUD Operations using Axios and MockApi
 
-# CRUD Operation
+### CRUD Operation
 Create
 Read
 Update
