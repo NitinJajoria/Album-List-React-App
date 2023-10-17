@@ -13,7 +13,7 @@ const Create = () => {
         e.preventDefault();
         console.log("clicked");
         await axios
-        .post(`https://64ad5c80b470006a5ec5d54a.mockapi.io/crud-project`, {
+        .post(`https://64be17772320b36433c80a50.mockapi.io/albums`, {
             userId: userId,
             title: title,
         })
