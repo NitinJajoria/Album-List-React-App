@@ -22,7 +22,7 @@ const Update = () => {
         console.log("id", id);
     
         await axios
-            .put(`https://64ad5c80b470006a5ec5d54a.mockapi.io/crud-project/${id}`, { 
+            .put(`https://64be17772320b36433c80a50.mockapi.io/albums/${id}`, { 
                 userId: userId,
                 title: title,
             })
