@@ -8,13 +8,13 @@ const Albums = () => {
 
     // function to fetch albums from mock api 
     const getAlbums = async () => {
-        const res = await axios.get ('https://64ad5c80b470006a5ec5d54a.mockapi.io/crud-project');
+        const res = await axios.get ('https://64be17772320b36433c80a50.mockapi.io/albums');
         setAlbums( res.data);
     }
 
     // function to handle delete operation using axios
     const handleDelete = async (id) => {
-        await axios.delete(`https://64ad5c80b470006a5ec5d54a.mockapi.io/crud-project/${id}`)
+        await axios.delete(`https://64be17772320b36433c80a50.mockapi.io/albums/${id}`)
         .then(() => {
             alert("Album Deleted Succesfully")
             getAlbums();
