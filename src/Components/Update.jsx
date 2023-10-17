@@ -36,7 +36,7 @@ const Update = () => {
         <>
             {/* Navbar */}
             <div className="bg-gray-900 h-16 w-full flex justify-around items-center gap-x-4">
-                <span className="text-yellow-300 text-2xl px-2 py-1 font-extrabold rounded ">ALBUMS LIST</span>
+                <span className="text-yellow-300 text-2xl px-2 py-1 font-extrabold rounded ">ALBUMS</span>
                 <Link to="/">
                     <button className="bg-yellow-300 px-2 py-1 font-extrabold rounded cursor-pointer active:scale-90">Back</button>
                 </Link>
